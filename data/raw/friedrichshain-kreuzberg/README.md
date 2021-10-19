@@ -6,11 +6,11 @@ This folder lists datasets needed to analyze the parking situation in the distri
 
 ### Main Files
 
-- **lor-districts.geojson** The official file of mutlipolygons delimiting LOR-Bezirke
+- **lor-districts.geojson** The official file of mutlipolygons delimiting LOR-Bezirke, still needs to be filtered for Friedrichshain-Kreuberg.
 
-- **counted_cars_cartagger_project.geojson** Point coordinates of motionless and in motion vehicles at a point in time (unknown), as part of the Cartagger-project founded by Hans Hack
+- **counted_cars_cartagger_project.geojson** Point coordinates of motionless and in motion vehicles at a point in time (unknown), as part of the Cartagger-project founded by Hans Hack.
 
-- **counted_parking-fk.geojson** Line coordinates (length in m) containing parking count. (**KLASSE?**) provided by the district Friedrichshain-Kreuzberg
+- **counted_parking-fk.geojson** Line coordinates (length in m) containing parking count. (**KLASSE?**) provided by the district Friedrichshain-Kreuzberg.
 
 ## Secondary files
 
