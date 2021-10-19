@@ -3,9 +3,9 @@
 ### Main Files
 
 - **lor-districts.geojson** Mutlipolygons delimiting Bezirke.
-- 
+
 - **counted_cars_cartagger_project.geojson** Point coordinates of motionless and in motion vehicles at a point in time (unknown)
-- 
+
 - **counted_parking-fk.geojson** Line coordinates (length in m) containing parking count. (**KLASSE?**)
 
 ## Secondary files
