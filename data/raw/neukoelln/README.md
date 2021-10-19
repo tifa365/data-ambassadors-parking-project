@@ -1,3 +1,8 @@
+
+# Datasets
+
+This folder lists datasets needed to analyze the parking situation in the district of Neukölln, the data stems from the parking analyses by Alex. https://github.com/SupaplexOSM/strassenraumkarte-neukoelln 
+
 # kfz_lor_planungsraum.geojson
 
 * Beschreibung: LOR-Planungsräume (Polygone) mit Quote zugelassener Kfz und Pkw
