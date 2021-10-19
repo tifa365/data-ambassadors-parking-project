@@ -5,16 +5,10 @@
 - **lor-districts.geojson** Mutlipolygons delimiting Bezirke.
 - 
 - **counted_cars_cartagger_project.geojson** Point coordinates of motionless and in motion vehicles at a point in time (unknown)
-
+- 
 - **counted_parking-fk.geojson** Line coordinates (length in m) containing parking count. (**KLASSE?**)
 
 ## Secondary files
-
-- **counted_cars_fr-k.geojson** Mutlipolygons (LOR: FK) containing car count on June 2006.
-
-- **counted_cars_per_lor_cartagger.geojson** Mutlipolygons (LOR: FK) containing car count on June 2006 (**DUPLICATE?**)
-
-- **counted_parking_neukoelln_osm.geojson** Mutlipolygons (LOR: FK) containing parking count on June 2006.
 
 - **Detektoren_Brandenburg.json** National road car detectors in Brandenburg.
 
@@ -27,7 +21,7 @@
 - **parkzones_hours_pricing.csv** Paid parking (no geospatial info). Most reference links don't work. In [this website](https://parkeninkreuzberg.de) one can find the _"Standorte der Parkscheinautomaten"_ but in pdf and with no possibility to match PARKRAUM_ID index or any other ID column.
 
 - **registered_cars_per_lor.geojson** Polygons delimiting LORS all over Berlin containing info about car registration and demographics.
-- 
+
 - **sharenow_rental_cars.geojson** Point coordinates of ShareNow car rental spots all over Berlin. Includes full addresses (**TODO**: match street to Bezirk, filter in only Bezirk FK).
 
 - **qgis-parking-data-with-database/parken_gesamt.geojson** Same geospatial info as `counted_cars_fr-k.geojson` but with no metadata. (**CHECK THIS!**)
