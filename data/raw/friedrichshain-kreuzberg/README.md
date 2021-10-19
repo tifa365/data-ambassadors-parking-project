@@ -2,7 +2,7 @@
 
 ### Main Files
 
-- **lor-districts.geojson** Mutlipolygons delimiting Bezirke.
+- **lor-districts.geojson** Mutlipolygons delimiting LOR-Bezirke.
 
 - **counted_cars_cartagger_project.geojson** Point coordinates of motionless and in motion vehicles at a point in time (unknown)
 
