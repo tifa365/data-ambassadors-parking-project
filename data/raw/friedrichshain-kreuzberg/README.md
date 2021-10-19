@@ -24,7 +24,7 @@ This folder lists datasets needed to analyze the parking situation in the distri
 
 - **parkzones_hours_pricing.csv** Paid parking (no geospatial info). Most reference links don't work. In [this website](https://parkeninkreuzberg.de) one can find the _"Standorte der Parkscheinautomaten"_ but in pdf and with no possibility to match PARKRAUM_ID index or any other ID column.
 
-- **registered_cars_per_lor.geojson** Polygons delimiting LORS all over Berlin containing info about car registration and demographics.
+- **registered_cars_per_lor.geojson** Polygons delimiting LORS all over Berlin containing info about car registration and demographics from 2018. The data is provided online https://www.berlin.de/sen/uvk/verkehr/verkehrsdaten/zahlen-und-fakten/mobilitaet-in-staedten-srv-2018/ and was recommended by Simon Stock.
 
 - **sharenow_rental_cars.geojson** Point coordinates of ShareNow car rental spots all over Berlin. Includes full addresses (**TODO**: match street to Bezirk, filter in only Bezirk FK).
 
