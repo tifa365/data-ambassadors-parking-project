@@ -6,4 +6,4 @@ with the osmnx library.
 
 ## To-do
 
-This file could be cleaned up and serve to download OSM-data for F-Kr.
+**preprocessing (alex).ipynb** could be cleaned up and serve to download OSM-data for F-Kr.
