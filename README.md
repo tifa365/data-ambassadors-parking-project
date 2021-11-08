@@ -4,19 +4,21 @@ This project folder is the backbone for the Data Ambassadors Parking Project, cu
 
 # To-Dos
 
-## Questions where we have the data for (I think) and where Simon is interested in:
-* Parking space vs. counted (registered?) cars 
-* Demographic visualisations about Friedrichshain Kreuzberg
-* do cars correlate with age?
-* do cars correlate with background of inhabitants (german vs foreign)
-* do cars correlate with gender?
-* visualisation of parking spaces for disabled persons - how does that correlate with other demographics?
-* how do parking zones influence parking in Friedrichshain Kreuzberg?
-* how do rental cars influence parking in Friedrichshain Kreuzberg?
+## A few Guiding Questions for Starting Your Data Exploration Journey
+
+### Cross Validation
+* How do the officially counted parking spots by the district, registered cars and counted cars by the Cartagger project compare?
+
+### Demographics and Car Data 
+* Do provided parking spots per LOR correlate with age?
+* Do provided parking spots per LOR correlate with background of inhabitants? 
+* Do provided parking spots per LOR correlate with gender?
+* How do parking zones influence parking in Friedrichshain Kreuzberg?
+* (Visualisation of parking spaces for disabled persons - how does that correlate with other demographics?)
 
 --> maybe we have to reframe that a bit - I don't think we should only look at correlations but patterns within the different datasets.
 
-## Needed files (please double check!):
+## Provided Datasets
 * [x] LOR Districts Friedrichshain-Kreuzberg https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/lor_friedrichshain_kreuzberg.GeoJSON
 * [X] Official Counted Cars in Friedrichshain-Kreuzberg By Street (Thankfully Provided By Friedrichshain-Kreuzberg) https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/counted_parking-fk.geojson
 * **Counted Cars by Natali?**
