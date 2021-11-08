@@ -22,7 +22,7 @@ This project folder is the backbone for the Data Ambassadors Parking Project, cu
 * [x] LOR Districts Friedrichshain-Kreuzberg https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/lor_friedrichshain_kreuzberg.GeoJSON
 * [X] Official Counted Cars in Friedrichshain-Kreuzberg By Street (Thankfully Provided By Friedrichshain-Kreuzberg) https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/counted_parking-fk.geojson
 * **Counted Cars by Natali?**
-* [ ] Demographie.xlsx → transform in google sheets or csv https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/Demografie%20Berlin.xlsx
+* [x] Demographic Data For Friedrichshain-Kreuzberg, "Age" and "National Background" in two separate files https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/demographics_age_of_inhabitants_friedrichshain_kreuzberg.csv, https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/demographics_nationalities_lor_fk.csv
 * [x] Registered Cars per LOR in Friedrichshain-Kreuzberg https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/registered_cars_per_lor_fk.geojson.GeoJSON
 * [x] Official Parking Spots for Disabled Persons In Friedrichshain-Kreuzberg
 https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/parking_spaces_for_disabled_persons_in_fk.geojson
