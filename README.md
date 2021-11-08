@@ -18,11 +18,9 @@ This project folder is the backbone for the Data Ambassadors Parking Project, cu
 
 ## Needed files (please double check!):
 * [x] LOR Districts Friedrichshain-Kreuzberg https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/lor_friedrichshain_kreuzberg.GeoJSON
-* [ ] parking data
+* [ ] Official Counted Cars in Friedrichshain-Kreuzberg By Street (Thankfully Provided By Friedrichshain-Kreuzberg) https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/counted_parking-fk.geojson
 * [ ] Demographie.xlsx → transform in google sheets or csv https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/Demografie%20Berlin.xlsx
 * [x] Registered Cars per LOR in Friedrichshain-Kreuzberg https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/registered_cars_per_lor_fk.geojson.GeoJSON
-* [ ] vehicle registration → transform in google sheets or csv
-https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/vehicle_registration_F_FK.xlsx
 * [x] Official Parking Spots for Disabled Persons In Friedrichshain-Kreuzberg
 https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/parking_spaces_for_disabled_persons_in_fk.geojson
 * [x] Official Parking Spaces For Disabled Persons in Friedrichshain-Kreuzberg
