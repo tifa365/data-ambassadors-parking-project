@@ -17,6 +17,7 @@ This project folder is the backbone for the Data Ambassadors Parking Project, cu
 --> maybe we have to reframe that a bit - I don't think we should only look at correlations but patterns within the different datasets.
 
 ## Needed files (please double check!):
+* [x] LOR Districts Friedrichshain-Kreuzberg https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/lor_friedrichshain_kreuzberg.GeoJSON
 * [ ] parking data
 * [ ] Demographie.xlsx → transform in google sheets or csv https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/Demografie%20Berlin.xlsx
 * [ ] vehicle registration → transform in google sheets or csv
@@ -29,7 +30,7 @@ https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/f
 https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/parkraumbewirtschaftung_parking_zones.geojson
 * [ ] sharenow_rental_cars sharenow_rental_cars.geojson
 * [x] cartagger - not sure which version?
-* [x] Reference data: Neukölln data? (all the raw data just in case one wants to compare→ data quality) https://github.com/tifa365/data-ambassadors-parking-project/tree/main/data/raw/neukoelln [yet undocumeted]
+* [x] Reference data: Neukölln data? (all the raw data just in case one wants to compare→ data quality) https://github.com/tifa365/data-ambassadors-parking-project/tree/main/data/raw/neukoelln
 * [ ] Possibly Overpass API Tags and view for public transport 
 
 Whenever you have the final data folder with everything needed included, I would ask you (or I can do it as well) to download them to a google shared drive as this is what we are going to share with the volunteers (as maybe not all of them are familiar with github).
