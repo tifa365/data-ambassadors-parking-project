@@ -23,14 +23,14 @@ This project folder is the backbone for the Data Ambassadors Parking Project, cu
 * [x] Registered Cars per LOR in Friedrichshain-Kreuzberg https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/registered_cars_per_lor_fk.geojson.GeoJSON
 * [ ] vehicle registration → transform in google sheets or csv
 https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/vehicle_registration_F_FK.xlsx
-* [ ] parking space disabled persons.csv
-https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/parking_spaces_disabled_persons.csv
-* [ ] parking space disabled persons.geojson
+* [x] Official Parking Spots for Disabled Persons In Friedrichshain-Kreuzberg
+https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/parking_spaces_for_disabled_persons_in_fk.geojson
+* [x] Official Parking Spaces For Disabled Persons in Friedrichshain-Kreuzberg
 https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/parking_spaces_disabled_persons.geojson
 * [x] Paid Parking Zones in Friedrichshain-Kreuzberg https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/paid_parking_zones_friedrichshain_kreuzberg.geojson
-* [ ] sharenow_rental_cars sharenow_rental_cars.geojson
 * [x] cartagger - not sure which version?
 * [x] Reference data: Neukölln data? (all the raw data just in case one wants to compare→ data quality) https://github.com/tifa365/data-ambassadors-parking-project/tree/main/data/raw/neukoelln
-* [ ] Possibly Overpass API Tags and view for public transport 
+* [ ](Possibly Overpass API Tags and view for public transport 
+* * ([x] ShareNow Rental car stations in Berlin (points)) 
 
 Whenever you have the final data folder with everything needed included, I would ask you (or I can do it as well) to download them to a google shared drive as this is what we are going to share with the volunteers (as maybe not all of them are familiar with github).
