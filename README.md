@@ -26,7 +26,7 @@ https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/f
 https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/parking_spaces_disabled_persons.csv
 * [ ] parking space disabled persons.geojson
 https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/parking_spaces_disabled_persons.geojson
-* [ ] parkraumbewirtschaftung_parking_zones
+* [x] Paid Parking Zones in Friedrichshain-Kreuzberg https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/paid_parking_zones_friedrichshain_kreuzberg.geojson
 https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/parkraumbewirtschaftung_parking_zones.geojson
 * [ ] sharenow_rental_cars sharenow_rental_cars.geojson
 * [x] cartagger - not sure which version?
