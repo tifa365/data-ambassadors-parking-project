@@ -28,8 +28,8 @@ https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/f
 * [ ] parkraumbewirtschaftung_parking_zones
 https://github.com/tifa365/data-ambassadors-parking-project/blob/main/data/raw/friedrichshain-kreuzberg/parkraumbewirtschaftung_parking_zones.geojson
 * [ ] sharenow_rental_cars sharenow_rental_cars.geojson
-* [ ] cartagger - not sure which version?
-* [ ] Reference data: Neukölln data? (all the raw data just in case one wants to compare→ data quality)
+* [x] cartagger - not sure which version?
+* [x] Reference data: Neukölln data? (all the raw data just in case one wants to compare→ data quality) https://github.com/tifa365/data-ambassadors-parking-project/tree/main/data/raw/neukoelln [yet undocumeted]
 * [ ] Possibly Overpass API Tags and view for public transport 
 
 Whenever you have the final data folder with everything needed included, I would ask you (or I can do it as well) to download them to a google shared drive as this is what we are going to share with the volunteers (as maybe not all of them are familiar with github).
