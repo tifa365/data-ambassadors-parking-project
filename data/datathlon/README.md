@@ -2,26 +2,24 @@
 _** Note: All datasets contain information solely from the District of Friedrichshain-Kreuzberg in Berlin, unless specified otherwise._
 
 ### General
-* [ ] Living Areas (LOR, in German) in the District of Friedrichshain-Kreuzberg.
-
+* [ ] [`lor_friedrichshain_kreuzberg.geojson`] Living Areas (LOR, in German) in the District of Friedrichshain-Kreuzberg 
 ### Parking
-* [ ] Official Parking Spot Count - Incomplete (kindly provided by the Distric Office of Friedrichshain-Kreuzberg)
-* [ ] Official Parking Spots for Disabled Persons - Complete 
-* [ ] Official Paid Parking Zones - Complete
-* [ ] Estimated Parking Lanes (w/ Parking Spot Count) based on OSM data - Complete 
-* [ ] Estimated Parking Spots based on OSM data - Complete 
-* [ ] Vehicles (in motion | motionless) from Satellite Images Tagged by Volunteers ([The Cartagger Project](https://github.com/hanshack/car-tagging-data-berlin))
+* [ ] [`counted_parked_cars_by_district_office.geojson`] Official Parking Spot Count - Incomplete (kindly provided by the Distric Office of Friedrichshain-Kreuzberg) 
+* [ ] [`parking_spaces_for_disabled_persons.geojson`] Official Parking Spots for Disabled Persons - Complete 
+* [ ] [`paid_parking_zones.geojson`] Official Paid Parking Zones - Complete 
+* [ ] [`estimated_parking_lanes.geojson`] Estimated Parking Lanes (w/ Parking Spot Count) based on OSM data - Complete 
+* [ ] [`estimated_parking_spots_kfz.geojson`] Estimated Parking Spots based on OSM data - Complete 
+* [ ] [`counted_cars_from_cartagger_project.geojson`] Vehicles (in motion | motionless) from Satellite Images Tagged by Volunteers ([The Cartagger Project](https://github.com/hanshack/car-tagging-data-berlin)) 
 
 ### Demographics
-* [ ] Age of Inhabitants per LOR
-* [ ] Ethnic Background of Inhabitants per LOR i
-* [ ] Registered cars per LOR
+* [ ] [`demographics_age_of_inhabitants.csv`] Age of Inhabitants per LOR 
+* [ ] [`demographics_background_of_inhabitants.csv`] Ethnic Background of Inhabitants per LOR 
+* [ ] [`registered_cars.geojson`] Registered cars per LOR 
 
 ### Extras
-* [ ] Driveways Lanes [[link](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dservice)]
-* [ ] Driveways Entry Points (Intersection of Driveways and Streets)
-* [ ] Complete Street Network
-
+* [ ] [`service_processed.geojson`] Driveways Lanes [[link](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dservice)] 
+* [ ] [`drive_ways.geojson`] Driveways Entry Points (Intersection of Driveways and Streets) 
+* [ ] [`streets_processed.geojson`] Complete Street Network 
 ---
 
 **GLOSSARY**:
