@@ -2,14 +2,18 @@
 _** Note: All datasets contain information solely from the District of Friedrichshain-Kreuzberg in Berlin, unless specified otherwise._
 
 ### General
-* [ ] [`lor_friedrichshain_kreuzberg.geojson`] Living Areas (LOR, in German) in the District of Friedrichshain-Kreuzberg 
+* [X] [`lor_friedrichshain_kreuzberg.geojson`] Living Areas (LOR, in German) in the District of Friedrichshain-Kreuzberg 
 ### Parking
 * [ ] [`counted_parked_cars_by_district_office.geojson`] Official Parking Spot Count - Incomplete (kindly provided by the Distric Office of Friedrichshain-Kreuzberg) 
-* [ ] [`parking_spaces_for_disabled_persons.geojson`] Official Parking Spots for Disabled Persons - Complete 
-* [ ] [`paid_parking_zones.geojson`] Official Paid Parking Zones - Complete 
+   - Only use columns ANZAHL, KLASSENAM and geometry
+   - Values of KLASSENAM: use more informative names (not sure what some of them mean)
+   - Delete row where KLASSENAM=Anzahl.txt 
+* [X] [`parking_spaces_for_disabled_persons.geojson`] Official Parking Spots for Disabled Persons - Complete 
+* [X] [`paid_parking_zones.geojson`] Official Paid Parking Zones - Complete 
+  - Not sure if it's very informative.
 * [ ] [`estimated_parking_lanes.geojson`] Estimated Parking Lanes (w/ Parking Spot Count) based on OSM data - Complete 
 * [ ] [`estimated_parking_spots_kfz.geojson`] Estimated Parking Spots based on OSM data - Complete 
-* [ ] [`counted_cars_from_cartagger_project.geojson`] Vehicles (in motion | motionless) from Satellite Images Tagged by Volunteers ([The Cartagger Project](https://github.com/hanshack/car-tagging-data-berlin)) 
+* [X] [`counted_cars_from_cartagger_project.geojson`] Vehicles (in motion | motionless) from Satellite Images Tagged by Volunteers ([The Cartagger Project](https://github.com/hanshack/car-tagging-data-berlin)) 
 
 ### Demographics
 * [ ] [`demographics_age_of_inhabitants.csv`] Age of Inhabitants per LOR 
