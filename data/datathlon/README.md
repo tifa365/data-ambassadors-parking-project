@@ -13,8 +13,10 @@ _** Note: All datasets contain information solely from the District of Friedrich
 
 ### Demographics
 * [ ] [`demographics_age_of_inhabitants.csv`] Age of Inhabitants per LOR 
+  - Bezirk,	Prognoseraum, Bezirksregion, Planungsrau: columns are number-coded based on `registered_cars.geojson`, is not obvious how to match these. 
 * [ ] [`demographics_background_of_inhabitants.csv`] Ethnic Background of Inhabitants per LOR 
-* [ ] [`registered_cars.geojson`] Registered cars per LOR 
+  - Bezirk,	Prognoseraum, Bezirksregion, Planungsrau: columns are number-coded based on `registered_cars.geojson`, is not obvious how to match these. 
+* [X] [`registered_cars.geojson`] Registered cars per LOR 
 
 ### Extras
 * [ ] [`service_processed.geojson`] Driveways Lanes [[link](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dservice)] 
