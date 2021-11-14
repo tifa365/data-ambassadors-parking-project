@@ -483,7 +483,8 @@ def prepareParkingLane(layer, side, clean):
     layer.startEditing()
 
     #Neue Attribute für Parkstreifeninformationen erstellen und deren ID's zur späteren Bearbeitung ermitteln
-    for attr in ['parking', 'orientation', 'position', 'condition', 'condition:other', 'condition:other:time', 'vehicles', 'maxstay', 'capacity', 'source:capacity', 'width', 'offset']:
+    for attr in ['parking', 'orientation', 'position', 'condition', 'condition:other', 'condition:other:time',
+    'vehicles', 'maxstay', 'capacity', 'source:capacity', "source:orientation", "source:position", 'width', 'offset']:
         layer.dataProvider().addAttributes([QgsField(attr, QVariant.String)])
     layer.updateFields()
 
@@ -498,6 +499,8 @@ def prepareParkingLane(layer, side, clean):
     id_parking_maxstay = layer.fields().indexOf('maxstay')
     id_parking_capacity = layer.fields().indexOf('capacity')
     id_parking_source_capacity = layer.fields().indexOf('source:capacity')
+    id_parking_source_orientation = layer.fields().indexOf('source:orientation')
+    id_parking_source_position = layer.fields().indexOf('source:position')
     id_parking_width = layer.fields().indexOf('width')
     id_parking_offset = layer.fields().indexOf('offset')
     id_error = layer.fields().indexOf('error_output')
@@ -517,6 +520,7 @@ def prepareParkingLane(layer, side, clean):
 
     #Straßenabschnitte einzeln durchgehen und Parkstreifeninformationen zusammenfassend auslesen
     for feature in layer.getFeatures():
+        parking_parking = NULL
         parking_orientation = NULL
         parking_position = NULL
         parking_condition = NULL
@@ -526,6 +530,8 @@ def prepareParkingLane(layer, side, clean):
         parking_maxstay = NULL
         parking_capacity = NULL
         parking_source_capacity = NULL
+        parking_source_orientation = NULL
+        parking_source_position = NULL
         parking_width = NULL
         parking_offset = NULL
 
@@ -563,9 +569,11 @@ def prepareParkingLane(layer, side, clean):
         #Segmente ohne Parkplätze löschen
         parking_list = ['parallel', 'diagonal', 'perpendicular', 'marked']
         if parking_orientation in parking_list:
-            parking_source_capacity = 'estimated'
+            parking_source_orientation = "OSM"
         else:
             parking_orientation = 'parallel'
+            parking_source_orientation = 'estimated'
+
             #layer.deleteFeature(feature.id())
             #continue
 
@@ -576,6 +584,12 @@ def prepareParkingLane(layer, side, clean):
         parking_width = feature.attribute('parking:lane:' + side + ':width')
         readable_attributes.append('parking:lane:' + side + ':' + parking_orientation)
         readable_attributes.append('parking:lane:both:' + parking_orientation)
+
+        if parking_position in ["on_kerb", "on_street", "shoulder", "street_side", "painted_area_only"]:
+            parking_source_position = 'OSM'
+        else:
+            parking_position = 'on_street'
+            parking_source_position = 'estimated'
 
         #Parkstreifen-Regeln (und Abweichungen) ermitteln (kostenfrei, Ticket, Halte-/Parkverbote zu bestimmten Zeiten...)
         if cond_default_side:
@@ -661,6 +675,8 @@ def prepareParkingLane(layer, side, clean):
                 parking_capacity = feature.attribute('parking:lane:both:capacity')
         if parking_capacity != NULL:
             parking_source_capacity = 'OSM'
+        else:
+            parking_source_capacity = 'estimated'
 
         if vehicles_side:
             parking_vehicles = feature.attribute('parking:condition:' + side + ':vehicles')
@@ -696,6 +712,8 @@ def prepareParkingLane(layer, side, clean):
         layer.changeAttributeValue(feature.id(), id_parking_maxstay, parking_maxstay)
         layer.changeAttributeValue(feature.id(), id_parking_capacity, parking_capacity)
         layer.changeAttributeValue(feature.id(), id_parking_source_capacity, parking_source_capacity)
+        layer.changeAttributeValue(feature.id(), id_parking_source_orientation, parking_source_orientation)
+        layer.changeAttributeValue(feature.id(), id_parking_source_position, parking_source_position)
         layer.changeAttributeValue(feature.id(), id_parking_width, parking_width)
         layer.changeAttributeValue(feature.id(), id_parking_offset, parking_offset)
 
