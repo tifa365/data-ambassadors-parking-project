@@ -19,9 +19,9 @@ _** Note: All datasets contain information solely from the District of Friedrich
 * [X] [`registered_cars.geojson`] Registered cars per LOR 
 
 ### Extras
-* [ ] [`service_processed.geojson`] Driveways Lanes [[link](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dservice)] 
-* [ ] [`drive_ways.geojson`] Driveways Entry Points (Intersection of Driveways and Streets) 
-* [ ] [`streets_processed.geojson`] Complete Street Network 
+* [X] [`service_processed.geojson`] Driveways Lanes [[link](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dservice)] 
+* [X] [`drive_ways.geojson`] Driveways Entry Points (Intersection of Driveways and Streets) 
+* [X] [`streets_processed.geojson`] Complete Street Network 
 ---
 
 **GLOSSARY**:
