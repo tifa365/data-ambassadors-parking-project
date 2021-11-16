@@ -32,10 +32,8 @@ _** Note: All datasets contain information solely from the District of Friedrich
 * [X] [`counted_cars_from_cartagger_project.geojson`] Vehicles (in motion | motionless) from Satellite Images Tagged by Volunteers [[The Cartagger Project](https://github.com/hanshack/car-tagging-data-berlin)]
 
 ### folder /Demographics
-* [ ] [`demographics_age_of_inhabitants.csv`] Age of Inhabitants per LOR 
-  - Bezirk,	Prognoseraum, Bezirksregion, Planungsrau: columns are number-coded based on `registered_cars.geojson`, is not obvious how to match these. 
-* [ ] [`demographics_background_of_inhabitants.csv`] Ethnic Background of Inhabitants per LOR 
-  - Bezirk,	Prognoseraum, Bezirksregion, Planungsrau: columns are number-coded based on `registered_cars.geojson`, is not obvious how to match these. 
+* [X] [`demographics_age_of_inhabitants.csv`] Age of Inhabitants per LOR 
+* [X] [`demographics_background_of_inhabitants.csv`] Ethnic Background of Inhabitants per LOR 
 * [X] [`registered_cars.geojson`] Registered cars per LOR 
 
 ### folder /Extras
