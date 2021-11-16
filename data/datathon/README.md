@@ -13,7 +13,7 @@ _** Note: All datasets contain information solely from the District of Friedrich
   - Not sure if it's very informative.
 * [X] [`estimated_parking_lanes.geojson`] Estimated Parking Lanes (w/ Parking Spot Count) based on OSM data - Complete 
 * [X] [`estimated_parking_spots_kfz.geojson`] Estimated Parking Spots based on OSM data - Complete 
-* [X] [`counted_cars_from_cartagger_project.geojson`] Vehicles (in motion | motionless) from Satellite Images Tagged by Volunteers ([The Cartagger Project](https://github.com/hanshack/car-tagging-data-berlin)) 
+* [X] [`counted_cars_from_cartagger_project.geojson`] Vehicles (in motion | motionless) from Satellite Images Tagged by Volunteers [[The Cartagger Project](https://github.com/hanshack/car-tagging-data-berlin)]
 
 ### Demographics
 * [ ] [`demographics_age_of_inhabitants.csv`] Age of Inhabitants per LOR 
@@ -23,12 +23,12 @@ _** Note: All datasets contain information solely from the District of Friedrich
 * [X] [`registered_cars.geojson`] Registered cars per LOR 
 
 ### Extras
-* [X] [`service_processed.geojson`] Driveways Lanes [[link](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dservice)] 
+* [X] [`service_processed.geojson`] Driveways Lanes [[OSMwiki - Service](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dservice)] 
 * [X] [`drive_ways.geojson`] Driveways Entry Points (Intersection of Driveways and Streets) 
 * [X] [`streets_processed.geojson`] Complete Street Network 
 ---
 
 **GLOSSARY**:
 - LOR: Lebensweltlich Orientierte Räume
-- OSM: Open Street Map Project ([link](https://www.openstreetmap.org/))
+- OSM: Open Street Map Project ([web](https://www.openstreetmap.org/))
 
