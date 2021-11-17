@@ -36,10 +36,13 @@ _** Note: All datasets contain information solely from the District of Friedrich
 * [X] [`service_processed.geojson`] Driveways Lanes [[OSMwiki - Service](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dservice)] 
 * [X] [`drive_ways.geojson`] Driveways Entry Points (Intersection of Driveways and Streets) 
 * [X] [`streets_processed.geojson`] Complete Street Network 
-* [x] Neukölln Parking Project Data [[web]](https://github.com/tifa365/data-ambassadors-parking-project/tree/main/data/raw/neukoelln)
----
 
+There is also the Neukölln parking project calculated the parking spots in Neukölln with the help of Open Street Map data. The project is completely available online but only in German though, so you might use Google Translate to understand the gist of it. [link](https://supaplexosm.github.io/strassenraumkarte-neukoelln/?map=parkingmap#18/52.48150/13.43571) 
+
+---
 **GLOSSARY**:
 - LOR: Lebensweltlich Orientierte Räume: The aim of defining the LOR is to depict the everyday homogeneity of areas and at the same time to maintain the comparability of the planning space units. Criteria for their delimitation are, among other things, uniform building structures or milieu formation, important roads and traffic routes as well as natural barriers, but also a limitation of the respective number of inhabitants. Berlin has created the LOR units to improve analysis, forecasting and urban planning. [[web]](https://de-m-wikipedia-org.translate.goog/wiki/Lebensweltlich_orientierte_R%C3%A4ume?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=nui)
 - OSM: Open Street Map Project: OpenStreetMap (OSM) is a collaborative project to create a free editable geographic database of the world. [[web1]](https://www.openstreetmap.org/) [[web2]](https://en.wikipedia.org/wiki/OpenStreetMap)
-
+---
+### About Geospatial Data
+You will be working with all the basic concepts of geospatial data: lines (roads), points (cars) and polygons (LOR districts of Berlin). These are the building blocks of understanding how to deal with geospatial data, as described in this tutorial that also provides you with more detailled information [link](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/). But what can we actually DO with geospatial data? There are a couple of programming tasks that are very specific to work with geospatial data, such as counting points inside polygons or calculating if two or more polygons intersect. Find an introduction under this [link](https://automating-gis-processes.github.io/CSC/notebooks/L4/Point-in-polygon.html).
