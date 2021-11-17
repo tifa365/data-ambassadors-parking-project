@@ -20,13 +20,9 @@ _** Note: All datasets contain information solely from the District of Friedrich
 ### General
 * [X] [`lor_friedrichshain_kreuzberg.geojson`] Living Areas (LOR, in German) in the District of Friedrichshain-Kreuzberg 
 ### folder /Parking
-* [ ] [`counted_parked_cars_by_district_office.geojson`] Official Parking Spot Count - Incomplete (kindly provided by the Distric Office of Friedrichshain-Kreuzberg) 
-   - Only use columns ANZAHL, KLASSENAM and geometry
-   - Values of KLASSENAM: use more informative names (not sure what some of them mean)
-   - Delete row where KLASSENAM=Anzahl.txt 
+* [X] [`counted_parked_cars_by_district_office.geojson`] Official Parking Spot Count - Incomplete (kindly provided by the Distric Office of Friedrichshain-Kreuzberg) 
 * [X] [`parking_spaces_for_disabled_persons.geojson`] Official Parking Spots for Disabled Persons - Complete 
 * [X] [`paid_parking_zones.geojson`] Official Paid Parking Zones - Complete 
-  - Not sure if it's very informative.
 * [X] [`estimated_parking_lanes.geojson`] Estimated Parking Lanes (w/ Parking Spot Count) based on OSM data - Complete 
 * [X] [`estimated_parking_spots_kfz.geojson`] Estimated Parking Spots based on OSM data - Complete 
 * [X] [`counted_cars_from_cartagger_project.geojson`] Vehicles (in motion | motionless) from Satellite Images Tagged by Volunteers [[The Cartagger Project](https://github.com/hanshack/car-tagging-data-berlin)]
@@ -45,5 +41,5 @@ _** Note: All datasets contain information solely from the District of Friedrich
 
 **GLOSSARY**:
 - LOR: Lebensweltlich Orientierte Räume[web](https://de-m-wikipedia-org.translate.goog/wiki/Lebensweltlich_orientierte_R%C3%A4ume?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=nui)
-- OSM: Open Street Map Project ([web](https://www.openstreetmap.org/))
+- OSM: Open Street Map Project [[web](https://www.openstreetmap.org/)]
 
