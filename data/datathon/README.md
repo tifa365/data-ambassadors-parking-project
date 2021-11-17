@@ -36,10 +36,10 @@ _** Note: All datasets contain information solely from the District of Friedrich
 * [X] [`service_processed.geojson`] Driveways Lanes [[OSMwiki - Service](https://wiki.openstreetmap.org/wiki/Tag:highway%3Dservice)] 
 * [X] [`drive_ways.geojson`] Driveways Entry Points (Intersection of Driveways and Streets) 
 * [X] [`streets_processed.geojson`] Complete Street Network 
-* [x] [Neukölln Parking Project Data] [[web]](https://github.com/tifa365/data-ambassadors-parking-project/tree/main/data/raw/neukoelln)
+* [x] Neukölln Parking Project Data [[web]](https://github.com/tifa365/data-ambassadors-parking-project/tree/main/data/raw/neukoelln)
 ---
 
 **GLOSSARY**:
 - LOR: Lebensweltlich Orientierte Räume [[web]](https://de-m-wikipedia-org.translate.goog/wiki/Lebensweltlich_orientierte_R%C3%A4ume?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=nui)
-- OSM: Open Street Map Project [[web](https://www.openstreetmap.org/)]
+- OSM: Open Street Map Project [[web]](https://www.openstreetmap.org/)
 
