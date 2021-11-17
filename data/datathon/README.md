@@ -1,4 +1,4 @@
-# Welcome to the Kreuzberg-Friedrichshain Parking Project by DSSG
+# Welcome to the Friedrichshain-Kreuzberg Parking Project of the Hackathon organized by DSSG
 
 This project folder is the backbone for the Data Ambassadors Parking Project, curated by DSSG. The goal of this repository is to collect and analyse parking data by the district Friedrichshain-Kreuzberg for the hackathon by DSSG.  
 
