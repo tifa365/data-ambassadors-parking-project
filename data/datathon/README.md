@@ -40,6 +40,6 @@ _** Note: All datasets contain information solely from the District of Friedrich
 ---
 
 **GLOSSARY**:
-- LOR: Lebensweltlich Orientierte Räume [[web]](https://de-m-wikipedia-org.translate.goog/wiki/Lebensweltlich_orientierte_R%C3%A4ume?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=nui)
-- OSM: Open Street Map Project [[web]](https://www.openstreetmap.org/)
+- LOR: Lebensweltlich Orientierte Räume: The aim of defining the LOR is to depict the everyday homogeneity of areas and at the same time to maintain the comparability of the planning space units. Criteria for their delimitation are, among other things, uniform building structures or milieu formation, important roads and traffic routes as well as natural barriers, but also a limitation of the respective number of inhabitants. Berlin has created the LOR units to improve analysis, forecasting and urban planning. [[web]](https://de-m-wikipedia-org.translate.goog/wiki/Lebensweltlich_orientierte_R%C3%A4ume?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=nui)
+- OSM: Open Street Map Project: OpenStreetMap (OSM) is a collaborative project to create a free editable geographic database of the world. [[web1]](https://www.openstreetmap.org/) [[web2]](https://en.wikipedia.org/wiki/OpenStreetMap)
 
