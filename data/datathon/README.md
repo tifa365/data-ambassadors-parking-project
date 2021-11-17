@@ -18,13 +18,13 @@ This project folder is the backbone for the Data Ambassadors Parking Project, cu
 _** Note: All datasets contain information solely from the District of Friedrichshain-Kreuzberg in Berlin, unless specified otherwise._
 
 ### General
-* [X] [`lor_friedrichshain_kreuzberg.geojson`] Living Areas (LOR, in German) in the District of Friedrichshain-Kreuzberg 
+* [X] [`lor_friedrichshain_kreuzberg.geojson`] Living Areas (LOR*, in German) in the District of Friedrichshain-Kreuzberg 
 ### folder /Parking
 * [X] [`counted_parked_cars_by_district_office.geojson`] Official Parking Spot Count - Incomplete (kindly provided by the Distric Office of Friedrichshain-Kreuzberg) 
 * [X] [`parking_spaces_for_disabled_persons.geojson`] Official Parking Spots for Disabled Persons - Complete 
 * [X] [`paid_parking_zones.geojson`] Official Paid Parking Zones - Complete 
 * [X] [`estimated_parking_lanes.geojson`] Estimated Parking Lanes (w/ Parking Spot Count) based on OSM data - Complete 
-* [X] [`estimated_parking_spots_kfz.geojson`] Estimated Parking Spots based on OSM data - Complete 
+* [X] [`estimated_parking_spots_kfz.geojson`] Estimated Parking Spots based on OSM* data - Complete 
 * [X] [`counted_cars_from_cartagger_project.geojson`] Vehicles (in motion | motionless) from Satellite Images Tagged by Volunteers [[The Cartagger Project](https://github.com/hanshack/car-tagging-data-berlin)]
 
 ### folder /Demographics
